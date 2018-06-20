@@ -172,6 +172,20 @@ function createWindow () {
       ]
     },
     {
+      label: 'Merge',
+      submenu: [
+        {
+          label: 'Merge YOLO Output'
+        },
+        {
+          label: 'Merge CNTK Faster-R CNN Output'
+        },
+        {
+          label: 'Merge Tensorflow Pascal VOC Output'
+        }
+      ]
+    },
+    {
       label: 'Debug',
       submenu: [
         {
